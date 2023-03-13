@@ -63,6 +63,7 @@ public class FrmMenu extends JFrame
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
+                //
                 int numMagazine = Integer.parseInt(tblMagazines.getValueAt(tblMagazines.getSelectedRow(),0).toString());
                 for (Magazine mag : mesMagazines)
                 {
