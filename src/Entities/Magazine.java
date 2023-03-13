@@ -30,6 +30,7 @@ public class Magazine
         lesArticles.add(unArticle);
     }
 
+
     // Cette méthode permet de calculer le montant total du magazine.
     // Ce dernier s'obtient en cumulant le montant de chaque article
     public double CalculerMontantMagazine()
